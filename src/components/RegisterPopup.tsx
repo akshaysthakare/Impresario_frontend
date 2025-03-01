@@ -25,7 +25,7 @@ const RegisterPopup: React.FC<RegisterPopupProps> = ({ onClose }) => {
     }
   
     try {
-      const response = await fetch("https://nest-backend-16zv.onrender.com/auth/register", {
+      const response = await fetch("https://impresario-backend.onrender.com/auth/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
